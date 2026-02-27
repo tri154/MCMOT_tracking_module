@@ -1,6 +1,9 @@
 # Real-Time Multi-Camera Object Tracking System
 This repository contain Traking module for the project.
 Other modules can be found in: https://github.com/tri154/MCMOT_Bigdata
+## Experiment videos: 
+https://drive.google.com/drive/folders/1RgHXbHsBICNOUsiLtCvTsNai2fcATMGx?usp=drive_link
+
 ## Overall Pipeline
 
 <img src="architecture.png" width="650" />
@@ -16,7 +19,6 @@ To run tracking, make sure the Kafka host is runing, this is an example of 2 cam
 
 Here is an example runing on Kaggle: https://www.kaggle.com/code/trikaggle/posetrack-bigdata
 
-Experiment videos: https://drive.google.com/drive/folders/1RgHXbHsBICNOUsiLtCvTsNai2fcATMGx?usp=drive_link
 ## Limitations:
 Due to error posed in the calibration process, the model struggles to track objects in real worlds, while be able to delivery a high accuracy performance in virtual setup. 
 
